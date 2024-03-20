@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE2DBF32BAA364400D01773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DBF22BAA364400D01773 /* AppDelegate.swift */; };
+		2DE2DBF52BAA364400D01773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DBF42BAA364400D01773 /* SceneDelegate.swift */; };
+		2DE2DBFA2BAA364400D01773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2DBF82BAA364400D01773 /* Main.storyboard */; };
+		2DE2DBFC2BAA364600D01773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2DBFB2BAA364600D01773 /* Assets.xcassets */; };
+		2DE2DBFF2BAA364600D01773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2DBFD2BAA364600D01773 /* LaunchScreen.storyboard */; };
+		2DE2DC0A2BAA364600D01773 /* TabaPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC092BAA364600D01773 /* TabaPayTests.swift */; };
+		2DE2DC142BAA364600D01773 /* TabaPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC132BAA364600D01773 /* TabaPayUITests.swift */; };
+		2DE2DC162BAA364600D01773 /* TabaPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC152BAA364600D01773 /* TabaPayUITestsLaunchTests.swift */; };
+		2DE2DC232BAA3AEB00D01773 /* PaymentSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC222BAA3AEB00D01773 /* PaymentSDK.swift */; };
+		2DE2DC252BAB637C00D01773 /* RecipientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC242BAB637C00D01773 /* RecipientListViewController.swift */; };
+		2DE2DC272BAB666200D01773 /* RecipientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC262BAB666200D01773 /* RecipientDetailsViewController.swift */; };
+		2DE2DC292BAB7A6700D01773 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC282BAB7A6700D01773 /* TransactionHistoryViewController.swift */; };
+		2DE2DC2B2BAB87EA00D01773 /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC2A2BAB87EA00D01773 /* PaymentMethodsViewController.swift */; };
+		2DE2DC2D2BAB8C7F00D01773 /* AddPaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2DC2C2BAB8C7F00D01773 /* AddPaymentMethodViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE2DC062BAA364600D01773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE2DBE72BAA364400D01773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE2DBEE2BAA364400D01773;
+			remoteInfo = TabaPay;
+		};
+		2DE2DC102BAA364600D01773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE2DBE72BAA364400D01773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE2DBEE2BAA364400D01773;
+			remoteInfo = TabaPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE2DBEF2BAA364400D01773 /* TabaPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabaPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE2DBF22BAA364400D01773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DE2DBF42BAA364400D01773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DE2DBF92BAA364400D01773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE2DBFB2BAA364600D01773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DE2DBFE2BAA364600D01773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DE2DC002BAA364600D01773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE2DC052BAA364600D01773 /* TabaPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabaPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE2DC092BAA364600D01773 /* TabaPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabaPayTests.swift; sourceTree = "<group>"; };
+		2DE2DC0F2BAA364600D01773 /* TabaPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabaPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE2DC132BAA364600D01773 /* TabaPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabaPayUITests.swift; sourceTree = "<group>"; };
+		2DE2DC152BAA364600D01773 /* TabaPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabaPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DE2DC222BAA3AEB00D01773 /* PaymentSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSDK.swift; sourceTree = "<group>"; };
+		2DE2DC242BAB637C00D01773 /* RecipientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientListViewController.swift; sourceTree = "<group>"; };
+		2DE2DC262BAB666200D01773 /* RecipientDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientDetailsViewController.swift; sourceTree = "<group>"; };
+		2DE2DC282BAB7A6700D01773 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		2DE2DC2A2BAB87EA00D01773 /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
+		2DE2DC2C2BAB8C7F00D01773 /* AddPaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE2DBEC2BAA364400D01773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC022BAA364600D01773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC0C2BAA364600D01773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE2DBE62BAA364400D01773 = {
+			isa = PBXGroup;
+			children = (
+				2DE2DBF12BAA364400D01773 /* TabaPay */,
+				2DE2DC082BAA364600D01773 /* TabaPayTests */,
+				2DE2DC122BAA364600D01773 /* TabaPayUITests */,
+				2DE2DBF02BAA364400D01773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE2DBF02BAA364400D01773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2DBEF2BAA364400D01773 /* TabaPay.app */,
+				2DE2DC052BAA364600D01773 /* TabaPayTests.xctest */,
+				2DE2DC0F2BAA364600D01773 /* TabaPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE2DBF12BAA364400D01773 /* TabaPay */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2DBF22BAA364400D01773 /* AppDelegate.swift */,
+				2DE2DBF42BAA364400D01773 /* SceneDelegate.swift */,
+				2DE2DC222BAA3AEB00D01773 /* PaymentSDK.swift */,
+				2DE2DC282BAB7A6700D01773 /* TransactionHistoryViewController.swift */,
+				2DE2DC262BAB666200D01773 /* RecipientDetailsViewController.swift */,
+				2DE2DC2A2BAB87EA00D01773 /* PaymentMethodsViewController.swift */,
+				2DE2DC2C2BAB8C7F00D01773 /* AddPaymentMethodViewController.swift */,
+				2DE2DC242BAB637C00D01773 /* RecipientListViewController.swift */,
+				2DE2DBF82BAA364400D01773 /* Main.storyboard */,
+				2DE2DBFB2BAA364600D01773 /* Assets.xcassets */,
+				2DE2DBFD2BAA364600D01773 /* LaunchScreen.storyboard */,
+				2DE2DC002BAA364600D01773 /* Info.plist */,
+			);
+			path = TabaPay;
+			sourceTree = "<group>";
+		};
+		2DE2DC082BAA364600D01773 /* TabaPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2DC092BAA364600D01773 /* TabaPayTests.swift */,
+			);
+			path = TabaPayTests;
+			sourceTree = "<group>";
+		};
+		2DE2DC122BAA364600D01773 /* TabaPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2DC132BAA364600D01773 /* TabaPayUITests.swift */,
+				2DE2DC152BAA364600D01773 /* TabaPayUITestsLaunchTests.swift */,
+			);
+			path = TabaPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE2DBEE2BAA364400D01773 /* TabaPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE2DC192BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPay" */;
+			buildPhases = (
+				2DE2DBEB2BAA364400D01773 /* Sources */,
+				2DE2DBEC2BAA364400D01773 /* Frameworks */,
+				2DE2DBED2BAA364400D01773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabaPay;
+			productName = TabaPay;
+			productReference = 2DE2DBEF2BAA364400D01773 /* TabaPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DE2DC042BAA364600D01773 /* TabaPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE2DC1C2BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPayTests" */;
+			buildPhases = (
+				2DE2DC012BAA364600D01773 /* Sources */,
+				2DE2DC022BAA364600D01773 /* Frameworks */,
+				2DE2DC032BAA364600D01773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE2DC072BAA364600D01773 /* PBXTargetDependency */,
+			);
+			name = TabaPayTests;
+			productName = TabaPayTests;
+			productReference = 2DE2DC052BAA364600D01773 /* TabaPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DE2DC0E2BAA364600D01773 /* TabaPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE2DC1F2BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPayUITests" */;
+			buildPhases = (
+				2DE2DC0B2BAA364600D01773 /* Sources */,
+				2DE2DC0C2BAA364600D01773 /* Frameworks */,
+				2DE2DC0D2BAA364600D01773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE2DC112BAA364600D01773 /* PBXTargetDependency */,
+			);
+			name = TabaPayUITests;
+			productName = TabaPayUITests;
+			productReference = 2DE2DC0F2BAA364600D01773 /* TabaPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE2DBE72BAA364400D01773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2DE2DBEE2BAA364400D01773 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2DE2DC042BAA364600D01773 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DE2DBEE2BAA364400D01773;
+					};
+					2DE2DC0E2BAA364600D01773 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DE2DBEE2BAA364400D01773;
+					};
+				};
+			};
+			buildConfigurationList = 2DE2DBEA2BAA364400D01773 /* Build configuration list for PBXProject "TabaPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE2DBE62BAA364400D01773;
+			productRefGroup = 2DE2DBF02BAA364400D01773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE2DBEE2BAA364400D01773 /* TabaPay */,
+				2DE2DC042BAA364600D01773 /* TabaPayTests */,
+				2DE2DC0E2BAA364600D01773 /* TabaPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE2DBED2BAA364400D01773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE2DBFF2BAA364600D01773 /* LaunchScreen.storyboard in Resources */,
+				2DE2DBFC2BAA364600D01773 /* Assets.xcassets in Resources */,
+				2DE2DBFA2BAA364400D01773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC032BAA364600D01773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC0D2BAA364600D01773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE2DBEB2BAA364400D01773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE2DC2B2BAB87EA00D01773 /* PaymentMethodsViewController.swift in Sources */,
+				2DE2DBF32BAA364400D01773 /* AppDelegate.swift in Sources */,
+				2DE2DBF52BAA364400D01773 /* SceneDelegate.swift in Sources */,
+				2DE2DC272BAB666200D01773 /* RecipientDetailsViewController.swift in Sources */,
+				2DE2DC232BAA3AEB00D01773 /* PaymentSDK.swift in Sources */,
+				2DE2DC292BAB7A6700D01773 /* TransactionHistoryViewController.swift in Sources */,
+				2DE2DC2D2BAB8C7F00D01773 /* AddPaymentMethodViewController.swift in Sources */,
+				2DE2DC252BAB637C00D01773 /* RecipientListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC012BAA364600D01773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE2DC0A2BAA364600D01773 /* TabaPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2DC0B2BAA364600D01773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE2DC142BAA364600D01773 /* TabaPayUITests.swift in Sources */,
+				2DE2DC162BAA364600D01773 /* TabaPayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DE2DC072BAA364600D01773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE2DBEE2BAA364400D01773 /* TabaPay */;
+			targetProxy = 2DE2DC062BAA364600D01773 /* PBXContainerItemProxy */;
+		};
+		2DE2DC112BAA364600D01773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE2DBEE2BAA364400D01773 /* TabaPay */;
+			targetProxy = 2DE2DC102BAA364600D01773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DE2DBF82BAA364400D01773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE2DBF92BAA364400D01773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE2DBFD2BAA364600D01773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE2DBFE2BAA364600D01773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE2DC172BAA364600D01773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DE2DC182BAA364600D01773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE2DC1A2BAA364600D01773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabaPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE2DC1B2BAA364600D01773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabaPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DE2DC1D2BAA364600D01773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabaPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabaPay";
+			};
+			name = Debug;
+		};
+		2DE2DC1E2BAA364600D01773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabaPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabaPay";
+			};
+			name = Release;
+		};
+		2DE2DC202BAA364600D01773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabaPay;
+			};
+			name = Debug;
+		};
+		2DE2DC212BAA364600D01773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC627YDWQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.TabaPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabaPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE2DBEA2BAA364400D01773 /* Build configuration list for PBXProject "TabaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE2DC172BAA364600D01773 /* Debug */,
+				2DE2DC182BAA364600D01773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE2DC192BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE2DC1A2BAA364600D01773 /* Debug */,
+				2DE2DC1B2BAA364600D01773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE2DC1C2BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE2DC1D2BAA364600D01773 /* Debug */,
+				2DE2DC1E2BAA364600D01773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE2DC1F2BAA364600D01773 /* Build configuration list for PBXNativeTarget "TabaPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE2DC202BAA364600D01773 /* Debug */,
+				2DE2DC212BAA364600D01773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE2DBE72BAA364400D01773 /* Project object */;
+}
